@@ -1,0 +1,10 @@
+:root{
+        --ff-main: 'Raleway', sans-serif;
+        --ff-sub:  'Lato', sans-serif;
+
+
+}
+
+h1{
+        font-family:  var(--ff-main);
+}
