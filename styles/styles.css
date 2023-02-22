@@ -31,7 +31,7 @@ h1{
 
 /*Nav bar*/
 
-.nav-bg-color{
+.bg-color{
         background-color: var(--base-color);
 }
 nav{
@@ -141,6 +141,30 @@ nav{
         border: 0.2rem solid var(--black) ;
 }
 
+/*About page*/
+
+.about-container{
+        padding: 10rem 0;
+}
+
+.about-text-container h1{
+        font-size: 5rem;
+}
+
+.about-text-container h3{
+        font-size: 1.8rem;
+        font-style: italic;
+}
+
+.about-text-container p{
+        font-size: 1.7rem;
+        margin: 1rem 0;
+}
+
+.about-img-container img{
+        display: block;
+        margin : 0 auto;
+}
 
 @media only screen and (min-width:576px) {
         .home-content h3{
@@ -198,6 +222,10 @@ nav{
         .interactive-pj-link,.weather-pj-link{
                 display: inline;
                 text-align:start;
+        }
+
+        .about-text-container h1{
+                font-size: 8rem;
         }
 }
 
