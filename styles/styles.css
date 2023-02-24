@@ -64,7 +64,7 @@ nav{
 }
 
 .hero h1{
-        font-size: 3.5rem;
+        font-size: 5rem;
         font-weight: var(--fw-bold);
 }
 
@@ -143,6 +143,11 @@ nav{
         border: 0.2rem solid var(--black) ;
 }
 
+.home-view-more{
+        margin-top: 7rem ;
+}
+
+
 footer{
         background-color: var(--base-color);
         font-size: 2rem;
@@ -164,12 +169,17 @@ footer{
         font-size: 5rem;
 }
 
+.about-text-container h1,.aboutpg-deco{
+        color: var(--primary-color);
+        font-weight: var(--fw-bold);
+}
+
 .about-text-container h3{
         font-size: 1.8rem;
         font-style: italic;
 }
 
-.about-text-container p{
+.about-text-container p,.about-quick-chat p,.about-quick-chat a{
         font-size: 1.7rem;
         margin: 1rem 0;
 }
@@ -177,6 +187,15 @@ footer{
 .about-img-container img{
         display: block;
         margin : 0 auto;
+}
+
+.about-quick-chat a,.home-view-more a{
+        color: var(--base-color);
+        background-color: var(--primary-color);
+        border-radius: var(--btn-radius);
+        padding: 0.8rem 2rem;
+        cursor: pointer;
+        font-weight: var(--fw-bold);
 }
 
 /*Projects page*/
@@ -188,7 +207,7 @@ footer{
   
 }
 
-.project-page-container h3{
+.project-page-container h3,.home-view-more a{
         font-size: 1.7rem;
 }
 
@@ -263,6 +282,9 @@ footer{
 
 
 @media only screen and (min-width:576px) {
+        .hero h1{
+                font-size: 7rem;
+        }
         .home-content h3{
                 font-size: 2rem;
         }
@@ -277,7 +299,7 @@ footer{
           
         }
         
-        .project-page-container h3{
+        .project-page-container h3,.home-view-more a{
                 font-size: 2rem;
         }
 
@@ -285,6 +307,10 @@ footer{
                 margin-bottom: 5rem;
         }
 
+        .about-quick-chat p{
+                display: inline;
+                margin-right: 3rem;
+        }
 
 
 }
@@ -299,7 +325,7 @@ footer{
                 margin: 1.5rem;
         }
         .hero h1{
-                font-size: 7rem;
+                font-size: 11rem;
                 margin: 17rem;
         }
 
@@ -358,5 +384,9 @@ footer{
         
         .card-title{
                 font-size: 3rem;
+        }
+
+        .about-quick-chat {
+                padding: 8rem;
         }
 }
