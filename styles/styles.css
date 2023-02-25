@@ -165,7 +165,7 @@ footer{
         padding: 10rem 0;
 }
 
-.about-text-container h1,.contact-form h3{
+.about-text-container h1{
         font-size: 5rem;
 }
 
@@ -276,6 +276,10 @@ footer{
 
 }
 
+.contact-form h1{
+        font-size: 4rem;
+}
+
 .contact-form p{
         font-size: 2rem;
 }
@@ -310,6 +314,10 @@ footer{
         .about-quick-chat p{
                 display: inline;
                 margin-right: 3rem;
+        }
+
+        .contact-form h1{
+                font-size: 5rem;
         }
 
 
@@ -366,7 +374,7 @@ footer{
                 font-size: 8rem;
         }
 
-        .contact-form h3{
+        .contact-form h1{
                 font-size: 6rem;
         }
 
