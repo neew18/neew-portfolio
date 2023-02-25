@@ -200,8 +200,8 @@ footer{
 
 /*Projects page*/
 
-.project-page-container h2{
-        font-size: 2rem;
+.project-page-container h1{
+        font-size: 2.6rem;
         margin: 2rem 4rem;
         margin-bottom: 4rem;
   
@@ -297,7 +297,7 @@ footer{
                 font-size: 1.4rem;
         }
 
-        .project-page-container h2{
+        .project-page-container h1{
                 font-size: 3rem;
                 margin: 5rem 10rem;
           
@@ -358,7 +358,7 @@ footer{
         }
 
         .home-content h3{
-                font-size: 3.5rem;
+                font-size: 3.4rem;
         }
         
         .home-content p{
@@ -368,6 +368,10 @@ footer{
         .interactive-pj-link,.weather-pj-link{
                 display: inline;
                 text-align:start;
+        }
+
+        .project-page-container h1{
+                font-size: 3.5rem;
         }
 
         .about-text-container h1{
