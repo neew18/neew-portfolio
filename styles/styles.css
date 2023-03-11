@@ -1,404 +1,402 @@
-:root{
-        --ff-main: 'Raleway', sans-serif;
-        --ff-sub:  'Lato', sans-serif;
-        --base-color: #F5F5F5;
-        --primary-color: #08DAD0;
-        --black : black;
-        --white: white;
-        --fw-bold: 700;
-        --btn-radius:  0.4rem;
-        --transition: all 200ms ease-in-out;
+:root {
+  --ff-main: "Raleway", sans-serif;
+  --ff-sub: "Lato", sans-serif;
+  --base-color: #f5f5f5;
+  --primary-color: #08dad0;
+  --black: black;
+  --white: white;
+  --fw-bold: 700;
+  --btn-radius: 0.4rem;
+  --transition: all 200ms ease-in-out;
 }
 
-html{
-        font-size: 62.5%;
-        font-family: var(--ff-sub);
+html {
+  font-size: 62.5%;
+  font-family: var(--ff-sub);
 }
 
-*{
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-body{
-        color: var(--black);
+body {
+  color: var(--black);
 }
 
-h1,.project-page-container h2{
-        font-family:  var(--ff-main);
+h1,
+.project-page-container h2 {
+  font-family: var(--ff-main);
 }
 
 /*Nav bar*/
 
-.bg-color{
-        background-color: var(--base-color);
+.bg-color {
+  background-color: var(--base-color);
 }
-nav{
-        border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
-}
-
-.menu-btn{
-        width: 3rem !important;
-        height: 3rem !important;
+nav {
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
 }
 
-.nav-item{
-        font-size: 1.5rem;
+.menu-btn {
+  width: 3rem !important;
+  height: 3rem !important;
 }
 
-.nav-item a{
-        transition: var(--transition);
+.nav-item {
+  font-size: 1.5rem;
 }
-.nav-item a:hover,.active{
-        color: var(--primary-color) !important;
+
+.nav-item a {
+  transition: var(--transition);
+}
+.nav-item a:hover,
+.active {
+  color: var(--primary-color) !important;
 }
 
 /*Main page -hero section*/
-.home-page{
-        padding: 3rem 0;
+.home-page {
+  padding: 3rem 0;
 }
-.hero{
-        background-color: var(--base-color) ;
-        padding: 15rem 0 10rem 0;
-}
-
-.hero h1{
-        font-size: 5rem;
-        font-weight: var(--fw-bold);
+.hero {
+  background-color: var(--base-color);
+  padding: 15rem 0 10rem 0;
 }
 
-.hero h2,.hero h3{
-     font-size: 2rem;
+.hero h1 {
+  font-size: 5rem;
+  font-weight: var(--fw-bold);
 }
 
-.hero h3{
-        opacity: 0.75;
-        font-family: var(--ff-main);
+.hero h2,
+.hero h3 {
+  font-size: 2rem;
 }
 
-.hero div{
-        margin-top: 4rem;
+.hero h3 {
+  opacity: 0.75;
+  font-family: var(--ff-main);
 }
 
-.hero div a{
-        font-size: 1.8rem;
-        background-color: var(--primary-color);
-        border-radius: 0.4rem;
-        color: var(--white);
-        font-weight: var(--fw-bold);
-        transition: var(--transition);
+.hero div {
+  margin-top: 4rem;
 }
 
-.hero div a:hover{
-        color: var(--primary-color);
-        border: 0.3rem solid var(--primary-color) ;
-        background-color: var(--base-color);
+.hero div a {
+  font-size: 1.8rem;
+  background-color: var(--primary-color);
+  border-radius: 0.4rem;
+  color: var(--white);
+  font-weight: var(--fw-bold);
+  transition: var(--transition);
+}
+
+.hero div a:hover {
+  color: var(--primary-color);
+  border: 0.3rem solid var(--primary-color);
+  background-color: var(--base-color);
 }
 
 /*Main page -Content section*/
 
-.home-content{
-        padding: 5rem 0 5rem 0;
+.home-content {
+  padding: 5rem 0 5rem 0;
 }
 
-.home-content h2{
-        font-style: italic;
+.home-content h2 {
+  font-style: italic;
 }
 
-.content-pg-deco{
-        border: 0.1rem solid var(--primary-color);
-        width: 5rem;
-        height: 0.3rem;
-        background-color: var(--primary-color);
-        margin:1rem auto;
+.content-pg-deco {
+  border: 0.1rem solid var(--primary-color);
+  width: 5rem;
+  height: 0.3rem;
+  background-color: var(--primary-color);
+  margin: 1rem auto;
 }
 
-.content-pg-space{
-        margin-bottom: 5rem;
+.content-pg-space {
+  margin-bottom: 5rem;
 }
 
-.pj-imgs:hover{
-        filter: blur(0.08rem);
+.home-content h3 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-family: var(--ff-main);
 }
 
-.home-content h3{
-        font-size: 3rem;
-        text-transform: capitalize;
-        font-family: var(--ff-main);
+.home-content p {
+  font-size: 1.8rem;
 }
 
-.home-content p{
-        font-size: 1.8rem;
+.interactive-pj-link,
+.weather-pj-link {
+  padding: 1rem 1.5rem;
+  border-radius: var(--btn-radius);
+  font-weight: var(--fw-bold);
+  font-size: 1.5rem;
+  color: var(--black);
+  display: block;
+  text-align: center;
+  border: 0.2rem solid var(--black);
 }
 
-.interactive-pj-link,.weather-pj-link{
-        padding: 1rem 1.5rem;
-        border-radius: var(--btn-radius);
-        font-weight: var(--fw-bold);
-        font-size: 1.5rem;
-        color: var(--black);
-        display: block;
-        text-align: center;
-        border: 0.2rem solid var(--black) ;
+.home-view-more {
+  margin-top: 7rem;
 }
 
-.home-view-more{
-        margin-top: 7rem ;
+footer {
+  background-color: var(--base-color);
+  font-size: 2rem;
+  padding: 3rem 0;
 }
 
-
-footer{
-        background-color: var(--base-color);
-        font-size: 2rem;
-        padding: 3rem 0;
-}
-
-.footer-icons{
-        color: var(--primary-color);
-        font-size: 2.5rem;
+.footer-icons {
+  color: var(--primary-color);
+  font-size: 2.5rem;
 }
 
 /*About page*/
 
-.about-container,.project-page-container{
-        padding: 10rem 0;
+.about-container,
+.project-page-container {
+  padding: 10rem 0;
 }
 
-.about-text-container h1{
-        font-size: 5rem;
+.about-text-container h1 {
+  font-size: 5rem;
 }
 
-.about-text-container h1,.aboutpg-deco{
-        color: var(--primary-color);
-        font-weight: var(--fw-bold);
+.about-text-container h1,
+.aboutpg-deco {
+  color: var(--primary-color);
+  font-weight: var(--fw-bold);
 }
 
-.about-text-container h3{
-        font-size: 1.8rem;
-        font-style: italic;
+.about-text-container h3 {
+  font-size: 1.8rem;
+  font-style: italic;
 }
 
-.about-text-container p,.about-quick-chat p,.about-quick-chat a{
-        font-size: 1.7rem;
-        margin: 1rem 0;
+.about-text-container p,
+.about-quick-chat p,
+.about-quick-chat a {
+  font-size: 1.7rem;
+  margin: 1rem 0;
 }
 
-.about-img-container img{
-        display: block;
-        margin : 0 auto;
+.about-img-container img {
+  display: block;
+  margin: 0 auto;
 }
 
-.about-quick-chat a,.home-view-more a{
-        color: var(--base-color);
-        background-color: var(--primary-color);
-        border-radius: var(--btn-radius);
-        padding: 0.8rem 2rem;
-        cursor: pointer;
-        font-weight: var(--fw-bold);
+.about-quick-chat a,
+.home-view-more a {
+  color: var(--base-color);
+  background-color: var(--primary-color);
+  border-radius: var(--btn-radius);
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+  font-weight: var(--fw-bold);
 }
 
 /*Projects page*/
 
-.project-page-container h1{
-        font-size: 2.6rem;
-        margin: 2rem 4rem;
-        margin-bottom: 4rem;
-  
+.project-page-container h1 {
+  font-size: 2.6rem;
+  margin: 2rem 4rem;
+  margin-bottom: 4rem;
 }
 
-.project-page-container h3,.home-view-more a{
-        font-size: 1.7rem;
+.project-page-container h3,
+.home-view-more a {
+  font-size: 1.7rem;
 }
 
-.divider-pj-deco{
-        background-color: var(--primary-color);
-        width: 5rem;
-        padding: 0.2rem;
-        border-radius: 0.5rem;
-        margin: 0 auto;
-        margin-bottom: 2rem;
-        margin-top: 0.2rem;
+.divider-pj-deco {
+  background-color: var(--primary-color);
+  width: 5rem;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  margin-top: 0.2rem;
 }
 
-.card{
-        margin: 2rem auto;
-        max-width: 40rem;
-        min-width: 29rem
+.card {
+  margin: 2rem auto;
+  max-width: 40rem;
+  min-width: 29rem;
 }
 
-.card-title{
-        font-size: 2.5rem;
+.card-title {
+  font-size: 2.5rem;
 }
 
-.pj-buttons{
-        margin-top: 3.7rem;
+.pj-buttons {
+  margin-top: 3.7rem;
 }
 
-.button-hover:hover{
-        border-bottom: 0.3rem solid var(--primary-color);
+.button-hover:hover {
+  border-bottom: 0.3rem solid var(--primary-color);
 }
 
-
-
-.card-text{
-        font-size: 1.8rem;
+.card-text {
+  font-size: 1.8rem;
 }
 
-.pj-btn-groups{
-        margin: 0 auto;
-        border: 1px solid;
+.pj-btn-groups {
+  margin: 0 auto;
+  border: 1px solid;
 }
 
 /*Contact page*/
 
-.contact-section{
-        font-family: var(--ff-main);
-        padding: 2rem 0 ;
+.contact-section {
+  font-family: var(--ff-main);
+  padding: 2rem 0;
 }
 
-.contact-form{
-        padding-top: 9rem;
+.contact-form {
+  padding-top: 9rem;
 }
 
-.social-links{
-        border-left: 0.5rem solid var(--primary-color) ;
-        font-weight: var(--fw-bold);
+.social-links {
+  border-left: 0.5rem solid var(--primary-color);
+  font-weight: var(--fw-bold);
 }
 
-.social-links a{
-        color: var(--black);
-        font-weight: normal;
+.social-links a {
+  color: var(--black);
+  font-weight: normal;
 }
 
-.social-links a:hover{
-        color:var(--primary-color);
-
+.social-links a:hover {
+  color: var(--primary-color);
 }
 
-.contact-form h1{
-        font-size: 4rem;
+.contact-form h1 {
+  font-size: 4rem;
 }
 
-.contact-form p{
-        font-size: 2rem;
+.contact-form p {
+  font-size: 2rem;
 }
 
+@media only screen and (min-width: 576px) {
+  .hero h1 {
+    font-size: 7rem;
+  }
+  .home-content h3 {
+    font-size: 2rem;
+  }
 
-@media only screen and (min-width:576px) {
-        .hero h1{
-                font-size: 7rem;
-        }
-        .home-content h3{
-                font-size: 2rem;
-        }
-        
-        .home-content p{
-                font-size: 1.4rem;
-        }
+  .home-content p {
+    font-size: 1.4rem;
+  }
 
-        .project-page-container h1{
-                font-size: 3rem;
-                margin: 5rem 10rem;
-          
-        }
-        
-        .project-page-container h3,.home-view-more a{
-                font-size: 2rem;
-        }
+  .project-page-container h1 {
+    font-size: 3rem;
+    margin: 5rem 10rem;
+  }
 
-        .divider-pj-deco{
-                margin-bottom: 5rem;
-        }
+  .project-page-container h3,
+  .home-view-more a {
+    font-size: 2rem;
+  }
 
-        .about-quick-chat p{
-                display: inline;
-                margin-right: 3rem;
-        }
+  .divider-pj-deco {
+    margin-bottom: 5rem;
+  }
 
-        .contact-form h1{
-                font-size: 5rem;
-        }
+  .about-quick-chat p {
+    display: inline;
+    margin-right: 3rem;
+  }
 
-
+  .contact-form h1 {
+    font-size: 5rem;
+  }
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
+  .logo {
+    width: 10rem;
+  }
+  .nav-item {
+    font-size: 2rem;
+    margin: 1.5rem;
+  }
+  .hero h1 {
+    font-size: 11rem;
+    margin: 17rem;
+  }
 
-        .logo{
-                width: 10rem;
-        }
-        .nav-item{
-                font-size: 2rem;
-                margin: 1.5rem;
-        }
-        .hero h1{
-                font-size: 11rem;
-                margin: 17rem;
-        }
+  .hero h2 {
+    font-size: 4rem;
+  }
 
-        .hero h2{
-                font-size: 4rem;
-        }
+  .hero h3,
+  .home-content h2 {
+    font-size: 3rem;
+  }
 
-        .hero h3,.home-content h2{
-                font-size: 3rem;
-        }
+  .hero div {
+    margin-top: 7rem;
+  }
 
-        .hero div{
-                margin-top: 7rem;
-        }
+  .home-content h2 {
+    margin-bottom: 6rem;
+  }
 
-        .home-content h2{
-                margin-bottom: 6rem;
-        }
+  .content-pg-space {
+    margin-bottom: 10rem;
+  }
 
-        .content-pg-space{
-                margin-bottom: 10rem;
-        }
+  .home-content h3 {
+    font-size: 3.4rem;
+  }
 
-        .home-content h3{
-                font-size: 3.4rem;
-        }
-        
-        .home-content p{
-                font-size: 1.9rem;
-        }
-        
-        .interactive-pj-link,.weather-pj-link{
-                display: inline;
-                text-align:start;
-        }
+  .home-content p {
+    font-size: 1.9rem;
+  }
 
-        .project-page-container h1{
-                font-size: 3.5rem;
-        }
+  .interactive-pj-link,
+  .weather-pj-link {
+    display: inline;
+    text-align: start;
+  }
 
-        .about-text-container h1{
-                font-size: 8rem;
-        }
+  .project-page-container h1 {
+    font-size: 3.5rem;
+  }
 
-        .contact-form h1{
-                font-size: 6rem;
-        }
+  .about-text-container h1 {
+    font-size: 8rem;
+  }
 
-        .contact-section{
-                padding: 7rem 0 ;
-        }
+  .contact-form h1 {
+    font-size: 6rem;
+  }
+
+  .contact-section {
+    padding: 7rem 0;
+  }
 }
 
-@media only screen and (min-width:1024px) and (min-height:600px){
-        .hero{
-                padding: 17rem 0 15rem 0;
-                min-height: 100vh;
-        }
+@media only screen and (min-width: 1024px) and (min-height: 600px) {
+  .hero {
+    padding: 17rem 0 15rem 0;
+    min-height: 100vh;
+  }
 
-        
-        .card-title{
-                font-size: 3rem;
-        }
+  .card-title {
+    font-size: 3rem;
+  }
 
-        .about-quick-chat {
-                padding: 8rem;
-        }
+  .about-quick-chat {
+    padding: 8rem;
+  }
 }
